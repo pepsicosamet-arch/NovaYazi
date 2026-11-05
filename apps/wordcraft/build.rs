@@ -14,10 +14,10 @@ fn main() {
     }
     let mut res = winresource::WindowsResource::new();
     res.set_icon("../../assets/app-icon/wordcraft.ico")
-        .set("ProductName", "NOVA Yazi")
-        .set("FileDescription", "NOVA Yazi word processor")
-        .set("CompanyName", "Samet Sahin")
-        .set("LegalCopyright", "Copyright (c) the NOVA Yazi authors. MIT OR Apache-2.0.")
+        .set("ProductName", "NOVA Yazı")
+        .set("FileDescription", "NOVA Yazı word processor")
+        .set("CompanyName", "Learning Machines LLC")
+        .set("LegalCopyright", "Copyright (c) the NOVA Yazı authors. MIT OR Apache-2.0.")
         .set("OriginalFilename", "wordcraft.exe")
         .set("InternalName", "wordcraft");
     if let Err(e) = res.compile() {

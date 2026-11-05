@@ -1,0 +1,291 @@
+{
+  "id": "wordcraft",
+  "name": "NOVA Yazi",
+  "upgradeCode": "0707F73D-28C6-5975-A75D-5D9539EC924C",
+  "sources": [
+    "wordcraft.wxs"
+  ],
+  "icon": "assets/app-icon/wordcraft.ico",
+  "localization": [],
+  "extensions": [
+    "UI",
+    "Util"
+  ],
+  "payloads": [
+    "wordcraft-cli.exe",
+    "wordcraft.exe"
+  ],
+  "registry": [
+    [
+      "-1",
+      "Software\\Microsoft\\Windows\\CurrentVersion\\App Paths\\wordcraft.exe",
+      "",
+      "[#WordcraftExe]"
+    ],
+    [
+      "-1",
+      "Software\\RegisteredApplications",
+      "NOVA Yazi",
+      "Software\\NOVA Yazi\\Capabilities"
+    ],
+    [
+      "-1",
+      "Software\\NOVA Yazi\\Capabilities",
+      "ApplicationName",
+      "NOVA Yazi"
+    ],
+    [
+      "-1",
+      "Software\\NOVA Yazi\\Capabilities",
+      "ApplicationDescription",
+      "Write and design documents; open and save Word files."
+    ],
+    [
+      "-1",
+      "Software\\NOVA Yazi\\Capabilities",
+      "ApplicationIcon",
+      "\"[#WordcraftExe]\",0"
+    ],
+    [
+      "-1",
+      "Software\\Classes\\Applications\\wordcraft.exe",
+      "FriendlyAppName",
+      "NOVA Yazi"
+    ],
+    [
+      "-1",
+      "Software\\Classes\\Applications\\wordcraft.exe\\shell\\open\\command",
+      "",
+      "\"[#WordcraftExe]\" \"%1\""
+    ],
+    [
+      "-1",
+      "Software\\Classes\\NOVA Yazi.Document\\shell\\open\\command",
+      "",
+      "\"[#WordcraftExe]\" \"%1\""
+    ],
+    [
+      "-1",
+      "Software\\Classes\\.docx\\OpenWithProgids",
+      "NOVA Yazi.Document",
+      ""
+    ],
+    [
+      "-1",
+      "Software\\Classes\\Applications\\wordcraft.exe\\SupportedTypes",
+      ".docx",
+      ""
+    ],
+    [
+      "-1",
+      "Software\\NOVA Yazi\\Capabilities\\FileAssociations",
+      ".docx",
+      "NOVA Yazi.Document"
+    ],
+    [
+      "-1",
+      "Software\\Classes\\NOVA Yazi.DocumentMacroEnabled\\shell\\open\\command",
+      "",
+      "\"[#WordcraftExe]\" \"%1\""
+    ],
+    [
+      "-1",
+      "Software\\Classes\\.docm\\OpenWithProgids",
+      "NOVA Yazi.DocumentMacroEnabled",
+      ""
+    ],
+    [
+      "-1",
+      "Software\\Classes\\Applications\\wordcraft.exe\\SupportedTypes",
+      ".docm",
+      ""
+    ],
+    [
+      "-1",
+      "Software\\NOVA Yazi\\Capabilities\\FileAssociations",
+      ".docm",
+      "NOVA Yazi.DocumentMacroEnabled"
+    ],
+    [
+      "-1",
+      "Software\\Classes\\NOVA Yazi.Template\\shell\\open\\command",
+      "",
+      "\"[#WordcraftExe]\" \"%1\""
+    ],
+    [
+      "-1",
+      "Software\\Classes\\.dotx\\OpenWithProgids",
+      "NOVA Yazi.Template",
+      ""
+    ],
+    [
+      "-1",
+      "Software\\Classes\\Applications\\wordcraft.exe\\SupportedTypes",
+      ".dotx",
+      ""
+    ],
+    [
+      "-1",
+      "Software\\NOVA Yazi\\Capabilities\\FileAssociations",
+      ".dotx",
+      "NOVA Yazi.Template"
+    ],
+    [
+      "-1",
+      "Software\\Classes\\NOVA Yazi.TemplateMacroEnabled\\shell\\open\\command",
+      "",
+      "\"[#WordcraftExe]\" \"%1\""
+    ],
+    [
+      "-1",
+      "Software\\Classes\\.dotm\\OpenWithProgids",
+      "NOVA Yazi.TemplateMacroEnabled",
+      ""
+    ],
+    [
+      "-1",
+      "Software\\Classes\\Applications\\wordcraft.exe\\SupportedTypes",
+      ".dotm",
+      ""
+    ],
+    [
+      "-1",
+      "Software\\NOVA Yazi\\Capabilities\\FileAssociations",
+      ".dotm",
+      "NOVA Yazi.TemplateMacroEnabled"
+    ],
+    [
+      "-1",
+      "Software\\Classes\\NOVA Yazi.LegacyDocument\\shell\\open\\command",
+      "",
+      "\"[#WordcraftExe]\" \"%1\""
+    ],
+    [
+      "-1",
+      "Software\\Classes\\.doc\\OpenWithProgids",
+      "NOVA Yazi.LegacyDocument",
+      ""
+    ],
+    [
+      "-1",
+      "Software\\Classes\\Applications\\wordcraft.exe\\SupportedTypes",
+      ".doc",
+      ""
+    ],
+    [
+      "-1",
+      "Software\\NOVA Yazi\\Capabilities\\FileAssociations",
+      ".doc",
+      "NOVA Yazi.LegacyDocument"
+    ],
+    [
+      "-1",
+      "Software\\Classes\\NOVA Yazi.LegacyTemplate\\shell\\open\\command",
+      "",
+      "\"[#WordcraftExe]\" \"%1\""
+    ],
+    [
+      "-1",
+      "Software\\Classes\\.dot\\OpenWithProgids",
+      "NOVA Yazi.LegacyTemplate",
+      ""
+    ],
+    [
+      "-1",
+      "Software\\Classes\\Applications\\wordcraft.exe\\SupportedTypes",
+      ".dot",
+      ""
+    ],
+    [
+      "-1",
+      "Software\\NOVA Yazi\\Capabilities\\FileAssociations",
+      ".dot",
+      "NOVA Yazi.LegacyTemplate"
+    ],
+    [
+      "-1",
+      "Software\\Classes\\NOVA Yazi.RichText\\shell\\open\\command",
+      "",
+      "\"[#WordcraftExe]\" \"%1\""
+    ],
+    [
+      "-1",
+      "Software\\Classes\\.rtf\\OpenWithProgids",
+      "NOVA Yazi.RichText",
+      ""
+    ],
+    [
+      "-1",
+      "Software\\Classes\\Applications\\wordcraft.exe\\SupportedTypes",
+      ".rtf",
+      ""
+    ],
+    [
+      "-1",
+      "Software\\NOVA Yazi\\Capabilities\\FileAssociations",
+      ".rtf",
+      "NOVA Yazi.RichText"
+    ],
+    [
+      "-1",
+      "Software\\Classes\\NOVA Yazi.OpenDocumentText\\shell\\open\\command",
+      "",
+      "\"[#WordcraftExe]\" \"%1\""
+    ],
+    [
+      "-1",
+      "Software\\Classes\\.odt\\OpenWithProgids",
+      "NOVA Yazi.OpenDocumentText",
+      ""
+    ],
+    [
+      "-1",
+      "Software\\Classes\\Applications\\wordcraft.exe\\SupportedTypes",
+      ".odt",
+      ""
+    ],
+    [
+      "-1",
+      "Software\\NOVA Yazi\\Capabilities\\FileAssociations",
+      ".odt",
+      "NOVA Yazi.OpenDocumentText"
+    ],
+    [
+      "-1",
+      "Software\\Classes\\NOVA Yazi.Markdown\\shell\\open\\command",
+      "",
+      "\"[#WordcraftExe]\" \"%1\""
+    ],
+    [
+      "-1",
+      "Software\\Classes\\.md\\OpenWithProgids",
+      "NOVA Yazi.Markdown",
+      ""
+    ],
+    [
+      "-1",
+      "Software\\Classes\\Applications\\wordcraft.exe\\SupportedTypes",
+      ".md",
+      ""
+    ],
+    [
+      "-1",
+      "Software\\Classes\\NOVA Yazi.PlainText\\shell\\open\\command",
+      "",
+      "\"[#WordcraftExe]\" \"%1\""
+    ],
+    [
+      "-1",
+      "Software\\Classes\\.txt\\OpenWithProgids",
+      "NOVA Yazi.PlainText",
+      ""
+    ],
+    [
+      "-1",
+      "Software\\Classes\\Applications\\wordcraft.exe\\SupportedTypes",
+      ".txt",
+      ""
+    ]
+  ],
+  "mode": "dualScope"
+}
